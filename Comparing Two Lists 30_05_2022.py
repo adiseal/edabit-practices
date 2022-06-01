@@ -1,5 +1,5 @@
-# Author        ->  Adi Nugroho
-# Created at    ->  May 30 2022
+# Author        -> Adi Nugroho
+# Date created  -> May/30/2022
 
 # Python 3 code to demonstrate 
 # check if two lists are identical
