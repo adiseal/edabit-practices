@@ -5,8 +5,7 @@ def create_id(firstname, lastname):
     lower = first_letter.lower()
     ids = lower + capitalize
     return ids    
-	#return firstname[0].lower() + lastname[0:3].capitalize()
-    
+	
 
 print(create_id("John", "SMITH"))    
 assert create_id("mary", "lamb") == "mLam"

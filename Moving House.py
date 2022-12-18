@@ -1,6 +1,6 @@
 def years_in_one_house(age, moves):
     nb_houses = moves + 1 
-	avg_years = round(age / nb_houses)
+    avg_years = round(age / nb_houses)
     return avg_years
 
 assert years_in_one_house(30,1) == 15
