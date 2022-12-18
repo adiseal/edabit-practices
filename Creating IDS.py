@@ -1,5 +1,11 @@
 def create_id(firstname, lastname):
-	return firstname[0].lower() + lastname[0:3].capitalize()
+    first_letter = firstname[0]
+    three_first_lettter = lastname[0:3]
+    capitalize = three_first_lettter.capitalize()
+    lower = first_letter.lower()
+    ids = lower + capitalize
+    return ids    
+	#return firstname[0].lower() + lastname[0:3].capitalize()
     
 
 print(create_id("John", "SMITH"))    
