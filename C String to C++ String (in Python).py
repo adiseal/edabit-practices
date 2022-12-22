@@ -1,4 +1,3 @@
-
 def cpp_txt(lst):
     lst = lst[:-1]
     return ''.join(lst)
