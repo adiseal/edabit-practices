@@ -1,0 +1,7 @@
+def parity(n):
+    if n % 2 == 0:
+        return "even"
+    return "odd"
+    
+    
+print(parity(1001))
