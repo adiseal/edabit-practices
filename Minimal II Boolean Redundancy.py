@@ -4,4 +4,3 @@ def parity(n):
     return "odd"
     
     
-print(parity(1001))
