@@ -3,8 +3,7 @@ def remove_numbers(string):
     for i in string:
         if i.isalpha():
             str1 = str1 + i
-        else:
-            continue
+        
     return str1
     
 
