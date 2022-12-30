@@ -1,8 +1,7 @@
 def mod(a, b):
     # Find quotient (integer part only)
     quotient = int(a / b)
-    # quotient ->  
-    
+      
     # Find product
     product = quotient * b
     
