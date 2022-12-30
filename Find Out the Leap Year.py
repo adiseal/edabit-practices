@@ -9,4 +9,4 @@ assert leap_year(2024) == True
 
 assert leap_year(1968) == True 
 
-assert leap_year(2020) == True # -> DONE! 
+assert leap_year(2020) == True  
