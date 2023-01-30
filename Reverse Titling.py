@@ -1,9 +1,6 @@
-import re
-
 def reverse_title(txt):
-    return re.sub(r"[A-Za-z]+('[A-Za-z]+)?", lambda mo: mo.group(0)[0].lower() + mo.group(0)[1:].upper(), txt)
-    
-    
+    title = txt.title()
+    return title.swapcase()
     
 assert reverse_title("this is a title") == "tHIS iS a tITLE"
 
