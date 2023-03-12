@@ -1,8 +1,13 @@
 def is_in_range(n, r):
-    for v in range(r["min"], r["max"]):
-        if n == v:
-            return True
+    for i in r:
+        if i == "min":
+            s = i
         else:
-            return False
-            
-print(is_in_range(4, { "min": 0, "max": 5 })) 
+            i == "max"
+            b = i
+    if n >= r[s] and n <= r[b]:
+            return True
+    else:
+        return False
+        
+print(is_in_range(5, { "min": 5, "max": 5 })) # True
