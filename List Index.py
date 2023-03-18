@@ -8,3 +8,4 @@ def list_index(lst, idx):
 				if j == count:
 					a = a+ k
 	return a
+    
