@@ -9,4 +9,4 @@ def sort_by_length(lst):
 	key.sort()
 	for j in key:
 		mai = mai + [d[j]]
-	return 
+	return mai
