@@ -1,7 +1,7 @@
 def calc_diff(obj, limit):
 	a = 0
-	for x,y in obj.items():
-		a = a + y
-	return a - limit
+	for k,v in obj.items():
+		a = a + v
+	return a -limit
     
-print(calc_diff({ "baseball bat": 20 }, 5))
+print(calc_diff({"skate": 10, "painting": 20 }, 19)) # 11
