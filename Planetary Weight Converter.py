@@ -4,3 +4,5 @@ def space_weights(planet_a, weight, planet_b):
 	a = d[planet_a]
 	b = d[planet_b]
 	return round((weight/a)*b,2)
+    
+print(space_weights("Earth", 1, "Jupiter")) # 2.53
