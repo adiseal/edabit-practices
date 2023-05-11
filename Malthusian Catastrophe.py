@@ -12,3 +12,5 @@ def malthusian(food_growth, pop_mult):
             return count
         else:
             continue
+            
+print(malthusian(5879, 1.77)) # 12
