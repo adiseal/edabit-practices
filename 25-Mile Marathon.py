@@ -8,3 +8,4 @@ def marathon_distance(d):
             a = a + i
     return True if a == 25 else False
     
+print(marathon_distance([1, 2, 3, 4])) # False
