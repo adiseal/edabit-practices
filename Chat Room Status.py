@@ -1,12 +1,12 @@
 def chatroom_status(users):
-    count = 0
-    for i in users:
-        count = count + 1
-    if count == 0:
+    if len(users) == 0:
         return "no one online"
-    elif count == 1:
-        return "user1 online"
-    elif count == 2:
-        return "user1 and user2 online"
+    elif len(users) == 1:
+        return users[0] + " online"
+    elif len(users) == 2:
+        return users[0] + " and " + users[1] + " online"
     else:
-        return users[0]+users[1]+"and n-2 more online"
+        var = len(users) - 2
+        var_2 = users[0] + ", " + users[1] + " and " + str(var) + " more online"
+        # print(var_2)
+        return var_2
