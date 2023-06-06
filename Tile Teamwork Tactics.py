@@ -1,11 +1,4 @@
 def possible_bonus(a, b):
-    if b > a:
-        a = a + 6
-        if a == b:
-          return None
-        elif a >= b :
-            return True
-        else:
-            return False
+    return True if b-a < 7 and b-a > 0 else False
 
- print(possible_bonus(1, 9)) # False
+print(possible_bonus(3, 7)) # True
