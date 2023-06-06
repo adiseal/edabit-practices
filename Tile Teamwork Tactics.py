@@ -8,4 +8,4 @@ def possible_bonus(a, b):
         else:
             return False
 
-print(possible_bonus(7, 6)) 
+ print(possible_bonus(1, 9)) # False
