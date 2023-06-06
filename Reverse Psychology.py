@@ -5,4 +5,4 @@ def reverse_psychology(s):
     else:
         return "Do not " + s[:]
         
-print(reverse_psychology("Do not wash the dishes"))
+print(reverse_psychology("eat your lunch")) # "Do not eat your lunch."
