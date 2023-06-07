@@ -4,4 +4,4 @@ def add_up_to(n):
         sum_of_n.append(x)
     return sum(sum_of_n)
 
-print(add_up_to(10))
+print(add_up_to(3)) # 6
