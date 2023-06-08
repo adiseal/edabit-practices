@@ -1,8 +1,8 @@
-def reverse_psychology(s):
-    a = "Do not "                                             # do as question says
-    if a in s:
-        return s[7:len(s)]
-    else:
-        return "Do not " + s[:]
-        
-print(reverse_psychology("eat your lunch")) # "Do not eat your lunch."
+def reverse_psychology(s="Do not do anything."):
+	# DO NOT WRITE YOUR CODE HERE
+	if s != "Do not do anything.":
+		return "Do not " + s + "."
+	else:
+		return s
+
+print(reverse_psychology("wash the dishes")) # "Do not wash the dishes."
