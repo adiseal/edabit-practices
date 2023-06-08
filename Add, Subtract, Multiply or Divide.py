@@ -16,3 +16,5 @@ assert operation(15, 9) == "added"
 assert operation(26, 2) == "subtracted"
 
 assert operation(11, 11) == None
+
+print(operation(15, 9)) # "added"
