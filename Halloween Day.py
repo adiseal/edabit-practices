@@ -5,4 +5,6 @@ def halloween(dt):
     else:
         return "toffee"
         
+        
 print(halloween("2013/10/31")) # "Bonfire toffee"
+print(halloween("2012/07/31")) # "toffee"
