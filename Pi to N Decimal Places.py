@@ -1,5 +1,6 @@
+import math
+
 def my_pi(n):
-	a = round(22/7,n)
-	return a
+    return round(math.pi, n)
     
-print(my_pi(15)) # 3.141592653589793
+print(my_pi(5)) # 3.14159
