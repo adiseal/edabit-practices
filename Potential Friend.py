@@ -1,16 +1,10 @@
 def is_potential_friend(set1, set2):
-  count = 0
-  for i in set1:
-    for j in set2:
-      if i ==j:
-        count = count+1
-    if set1 == set2:
-      return True
-    elif count ==2:
-      return True
-    else: return False
+    common_interests = set1.intersection(set2)
+    if len(common_interests) >= 2 or common_interests == set1 == set2:
+        return True
+    return False
     
 print(is_potential_friend(
-  {"cycling", "technology", "drawing"},
-  {"dancing", "drawing"}
-)) # False
+  {"sports", "music", "chess"},
+  {"coding", "music", "netflix", "chess"}
+)) # True
