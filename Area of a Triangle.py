@@ -3,3 +3,4 @@ def tri_area(base, height):
   return area
   
 print(tri_area(3, 2)) # 3
+print(tri_area(7, 4)) # 14
