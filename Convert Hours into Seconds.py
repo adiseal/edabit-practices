@@ -3,3 +3,4 @@ def how_many_seconds(hours):
   return seconds
   
 print(how_many_seconds(2)) # 7200
+print(how_many_seconds(10)) # 36000
