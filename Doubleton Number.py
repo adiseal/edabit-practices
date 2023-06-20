@@ -1,14 +1,11 @@
 def doubleton(n):
-	start = n
-	end=n+1
-	while(True):
-		for i in range(start,end):
-			a = str(i)
-			b = list(a)
-			c= set(b)
-			if len(c) == 2:
-				return i
-			else:
-				end = end+1
-				
+    def is_doubleton(num):
+        digits = set(str(num))
+        return len(digits) == 2
+
+    n += 1
+    while not is_doubleton(n):
+        n += 1
+    return n
+    
 print(doubleton(10)) # 12
