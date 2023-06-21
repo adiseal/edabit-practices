@@ -1,7 +1,4 @@
-def cap_me(lst):
-	a = []
-	for i in lst:
-		a = a+[i[0].upper()+i[1:]]
-	return a
+def cap_me(names):
+    return [name.capitalize() for name in names]
     
 print(cap_me(["mavis", "senaida", "letty"])) # ["Mavis", "Senaida", "Letty"]
