@@ -21,3 +21,4 @@ def football_points(wins, draws, losses): # (3,3,2)
 	return result
     
 print(football_points(3, 4, 2)) # 13
+print(football_points(5, 0, 2)) # 15
