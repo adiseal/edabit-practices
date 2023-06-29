@@ -3,3 +3,4 @@ def animals(chickens, cows, pigs):
 	return totalLegs
     
 print(animals(2, 3, 5)) # 36
+print(animals(1, 2, 3)) # 22
