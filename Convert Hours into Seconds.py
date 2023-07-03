@@ -4,3 +4,4 @@ def how_many_seconds(hours):
   
 print(how_many_seconds(2)) # 7200
 print(how_many_seconds(10)) # 36000
+print(how_many_seconds(24)) # 86400
