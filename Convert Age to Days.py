@@ -3,3 +3,4 @@ def calc_age(age):
 
 print(calc_age(65)) # 23725
 print(calc_age(20)) # 7300
+print(calc_age(0))  # 0 
