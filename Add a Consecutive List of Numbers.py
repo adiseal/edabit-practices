@@ -5,3 +5,4 @@ def add_up_to(n):
     return sum(sum_of_n)
 
 print(add_up_to(3)) # 6
+print(add_up_to(10)) # 55
