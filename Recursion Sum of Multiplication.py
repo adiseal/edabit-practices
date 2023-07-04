@@ -1,6 +1,7 @@
-def multi_sum(n, ten = 10):
-	for i in range(1,11):
-		a = a + [a*i]
-	for j in a:
-		b = b +j
-	return b 
+def multi_sum(n, i=1):
+    if i == 10:
+        return n * i
+    else:
+        return n * i + multi_sum(n, i + 1)
+
+print(multi_sum(1)) # 55
