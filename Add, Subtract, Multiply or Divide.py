@@ -19,3 +19,4 @@ assert operation(11, 11) == None
 
 print(operation(15, 9)) # "added"
 print(operation(26, 2)) # "subtracted"
+print(operation(11, 11)) # None
