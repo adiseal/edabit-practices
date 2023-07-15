@@ -4,3 +4,4 @@ def name_string(name):
 	  return name
 	  
 print(name_string("Mubashir")) # "MubashirEdabit"
+print(name_string("Matt")) # "MattEdabit"
