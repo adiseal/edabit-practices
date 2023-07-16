@@ -3,3 +3,9 @@ def count_characters(shape):
     for row in shape:
         count += len(row)
     return count
+
+print(count_characters([
+  "###",
+  "###",
+  "###"
+])) # 9
