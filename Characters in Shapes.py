@@ -9,3 +9,8 @@ print(count_characters([
   "###",
   "###"
 ])) # 9
+
+print(count_characters([
+  "22222222",
+  "22222222",
+])) # 16
