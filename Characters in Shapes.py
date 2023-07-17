@@ -18,3 +18,5 @@ print(count_characters([
 print(count_characters([
   "------------------"
 ])) # 18
+
+print(count_characters([])) # 0
