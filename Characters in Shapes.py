@@ -20,3 +20,5 @@ print(count_characters([
 ])) # 18
 
 print(count_characters([])) # 0
+
+print(count_characters(["", ""])) # 0
