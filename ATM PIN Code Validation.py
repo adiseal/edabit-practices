@@ -1,8 +1,5 @@
 def is_valid_PIN(pin):
-    if type(pin) != str:
-        a = str(pin)
-        if len(a) == 4 or len(a) == 6:
-            return True
-        else: return False
+    if len(pin) == 4 or len(pin) == 6:
+        return pin.isdigit()
     else:
         return False
