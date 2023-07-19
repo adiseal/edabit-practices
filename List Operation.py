@@ -1,6 +1,2 @@
 def list_operation(x, y, n):
-    a = []
-    for i in range(x,y+1):
-        if i%3 == 0:
-            a = a + [i]
-    return a
+    return [i for i in range(x, y+1) if i % n == 0]
