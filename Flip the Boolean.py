@@ -3,3 +3,5 @@ def reverse(value):
         return not value
     else:
         return "boolean expected"
+
+print(flip_bool(True)) # 0
