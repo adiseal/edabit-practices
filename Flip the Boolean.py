@@ -6,3 +6,4 @@ def reverse(value):
 
 print(flip_bool(True)) # 0
 print(flip_bool(False)) # 1
+print(flip_bool(1)) # 0
