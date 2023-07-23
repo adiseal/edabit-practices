@@ -15,4 +15,5 @@ def even_or_odd(s):
         return "Even and Odd are the same"
         
 print(even_or_odd("22471")) # "Even and Odd are the same"
+print(even_or_odd("213613")) # "Even and Odd are the same"
 
