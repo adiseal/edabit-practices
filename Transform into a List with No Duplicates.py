@@ -1,2 +1,2 @@
 def setify(lst):
-    return set(lst)
+    return sorted(set(lst))
