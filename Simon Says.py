@@ -12,3 +12,8 @@ print(simon_says([
   "Simon says add 3",
   "Simon says multiply by 8"
 ])) # 24
+
+print(simon_says([
+  "Firstly, add 4",
+  "Simeon says subtract 100"
+])) # 0
