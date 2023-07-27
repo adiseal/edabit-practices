@@ -6,3 +6,9 @@ print(simon_says([
   "Simon says add 6",
   "Then add 5"
 ])) # 10
+
+print(simon_says([
+  "Susan says add 10",
+  "Simon says add 3",
+  "Simon says multiply by 8"
+])) # 24
