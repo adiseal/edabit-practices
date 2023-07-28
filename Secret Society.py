@@ -3,3 +3,4 @@ def society_name(friends):
 
 print(society_name(["Adam", "Sarah", "Malcolm"])) # "AMS"
 print(society_name(["Harry", "Newt", "Luna", "Cho"])) # "CHLN"
+print(society_name(["Phoebe", "Chandler", "Rachel", "Ross", "Monica", "Joey"])) # "CJMPRR"
