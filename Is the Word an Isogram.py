@@ -6,3 +6,4 @@ def is_isogram(txt):
     return True
 
 print(is_isogram("Algorism")) # True
+print(is_isogram("PasSword")) # False
