@@ -1,8 +1,7 @@
-def remove_vowels(txt):
-	a = ""
-	for i in txt:
-		if i == "a" or i == "e" or i == "i" or i == "o" or i == "u":
-			a = a + ""
-		else:
-			a = a + i
-	return a
+def remove_vowels(string):
+    vowels = "aeiouAEIOU"
+    new_string = ""
+    for char in string:
+        if char not in vowels:
+            new_string += char
+    return new_string
