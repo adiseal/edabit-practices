@@ -4,3 +4,5 @@ def is_isogram(txt):
         if txt.count(letter) > 1:
             return False
     return True
+
+print(is_isogram("Algorism")) # True
