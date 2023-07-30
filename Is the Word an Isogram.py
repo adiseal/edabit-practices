@@ -7,3 +7,4 @@ def is_isogram(txt):
 
 print(is_isogram("Algorism")) # True
 print(is_isogram("PasSword")) # False
+print(is_isogram("Consecutive")) # False
