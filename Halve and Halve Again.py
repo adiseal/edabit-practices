@@ -1,7 +1,6 @@
 def halve_count(a, b):
-    c = []
+    count = 0
     while a > b:
-        a = a / 2
-        if a < b:
-            return len(c)
-        c = c + [a]
+        a /= 2
+        count += 1
+    return count - 1
