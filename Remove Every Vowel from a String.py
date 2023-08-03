@@ -7,3 +7,4 @@ def remove_vowels(string):
     return new_string
     
 print(remove_vowels("I have never seen a thin person drinking Diet Coke.")) # " hv nvr sn  thn prsn drnkng Dt Ck."
+print(remove_vowels("We're gonna build a wall!")) # "W'r gnn bld  wll!"
