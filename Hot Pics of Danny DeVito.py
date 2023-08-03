@@ -1,8 +1,6 @@
-def prevent_distractions(txt):
-    a = ["anime", "meme", "vines", "roasts", "Danny DeVito"]
-    b = txt.split(" ")
-    for i in b:
-        if i in a:
+def prevent_distractions(string):
+    distractions = ["anime", "meme", "vines", "roasts", "Danny DeVito"]
+    for distraction in distractions:
+        if distraction.lower() in string.lower():
             return "NO!"
-    else:
-        return "Safe watching!"
+    return "Safe watching!"
