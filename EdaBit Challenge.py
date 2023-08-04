@@ -10,3 +10,5 @@ def eda_bit(start, end):
         else:
             result.append(i)
     return result
+
+print(eda_bit(0, 10)) # ["EdaBit", 1, 2, "Eda", 4, "Bit", "Eda", 7, 8, "Eda", "Bit" ]
