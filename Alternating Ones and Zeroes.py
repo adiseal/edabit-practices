@@ -1,2 +1,4 @@
 def can_alternate(s):
-    return True if s.count("1") == (s.count("0") - 1) or s.count("1") == (s.count("0") + 1) else False
+    zeros = s.count('0')
+    ones = s.count('1')
+    return abs(zeros - ones) <= 1
