@@ -1,9 +1,9 @@
 def count_all(txt):
-    count = 0
-    dig = 0
-    for i in txt:
-        if i.isalpha():
-            count = count + 1
-        else:
-            dig = dig + 1
-		return "{"+ "DIGITS: " +str(dig) + ", LETTERS: "+ str(count)+"}"
+    letters = 0
+    digits = 0
+    for char in txt:
+        if char.isalpha():
+            letters += 1
+        elif char.isdigit():
+            digits += 1
+    return {"LETTERS": letters, "DIGITS": digits}
