@@ -4,3 +4,4 @@ def greet_people(names):
 
 print(greet_people(["Joe"])) # "Hello Joe"
 print(greet_people(["Angela", "Joe"])) # "Hello Angela, Hello Joe"
+print(greet_people(["Frank", "Angela", "Joe"])) # "Hello Frank, Hello Angela, Hello Joe"
