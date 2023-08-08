@@ -1,6 +1,11 @@
 def first_arg(*args):
-    return args[0]
-
+    if len(args) == 0:
+        return None
+    else:
+        return args[0]
 
 def last_arg(*args):
-    return args[-1]
+    if len(args) == 0:
+        return None
+    else:
+        return args[-1]
