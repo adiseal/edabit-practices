@@ -4,3 +4,5 @@ def is_anagram(s1, s2):
     s1 = ''.join(sorted(s1))
     s2 = ''.join(sorted(s2))
     return s1 == s2
+
+print(is_anagram("cristian", "Cristina")) # True
