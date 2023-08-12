@@ -6,3 +6,5 @@ def is_vowel_sandwich(s):
         return True
     else:
         return False
+
+print(is_vowel_sandwich("cat")) # True
