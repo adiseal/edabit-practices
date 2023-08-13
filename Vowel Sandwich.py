@@ -8,3 +8,4 @@ def is_vowel_sandwich(s):
         return False
 
 print(is_vowel_sandwich("cat")) # True
+print(is_vowel_sandwich("ear")) # False
