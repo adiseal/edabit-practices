@@ -9,3 +9,4 @@ def is_vowel_sandwich(s):
 
 print(is_vowel_sandwich("cat")) # True
 print(is_vowel_sandwich("ear")) # False
+print(is_vowel_sandwich("bake")) # False
