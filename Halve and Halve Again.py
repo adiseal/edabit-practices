@@ -4,3 +4,5 @@ def halve_count(a, b):
         a /= 2
         count += 1
     return count - 1
+
+print(halve_count(1324, 98)) # 3
