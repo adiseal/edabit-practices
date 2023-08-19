@@ -4,3 +4,5 @@ def prevent_distractions(string):
         if distraction.lower() in string.lower():
             return "NO!"
     return "Safe watching!"
+
+print(prevent_distractions("vines that butter my eggroll")) # "NO!"
