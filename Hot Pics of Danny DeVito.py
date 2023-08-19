@@ -6,3 +6,4 @@ def prevent_distractions(string):
     return "Safe watching!"
 
 print(prevent_distractions("vines that butter my eggroll")) # "NO!"
+print(prevent_distractions("Hot pictures of Danny DeVito")) # "NO!"
