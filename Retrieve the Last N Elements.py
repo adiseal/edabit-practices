@@ -9,3 +9,4 @@ def last(lst, n):
 print(last([1, 2, 3, 4, 5], 1)) # [5]
 print(last([4, 3, 9, 9, 7, 6], 3)) # [9, 7, 6]
 print(last([1, 2, 3, 4, 5], 7)) # "invalid"
+print(last([1, 2, 3, 4, 5], 0)) # []
