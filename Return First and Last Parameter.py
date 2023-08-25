@@ -11,3 +11,4 @@ def last_arg(*args):
         return args[-1]
 
 print(first_arg(1, 2, 3)) # 1
+print(last_arg(1, 2, 3)) # 3
