@@ -9,3 +9,5 @@ def last_arg(*args):
         return None
     else:
         return args[-1]
+
+print(first_arg(1, 2, 3)) # 1
