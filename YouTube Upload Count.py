@@ -4,3 +4,5 @@ def upload_count(dates, month):
         if date.startswith(month):
             count += 1
     return count
+
+print(upload_count(["Sept 22", "Sept 21", "Oct 15"], "Sept")) # 2
