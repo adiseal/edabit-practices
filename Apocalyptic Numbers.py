@@ -5,3 +5,5 @@ def apocalyptic(n):
         return "Repent! {} days until the Apocalypse!".format(index)
     else:
         return "Crisis averted. Resume sinning."
+
+print(apocalyptic(109)) # "Crisis averted. Resume sinning."
