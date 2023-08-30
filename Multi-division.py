@@ -5,3 +5,4 @@ def abcmath(a, b, c):
 
 print(abcmath(42, 5, 10)) # False
 print(abcmath(5, 2, 1)) # True
+print(abcmath(1, 2, 3)) # False
