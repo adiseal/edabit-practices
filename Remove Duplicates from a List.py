@@ -6,3 +6,4 @@ def remove_dups(lst):
     return new_lst
 
 print(remove_dups([1, 0, 1, 0])) # [1, 0]
+print(remove_dups(["The", "big", "cat"])) # ["The", "big", "cat"]
