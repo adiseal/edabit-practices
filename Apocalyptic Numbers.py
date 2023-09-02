@@ -9,3 +9,4 @@ def apocalyptic(n):
 print(apocalyptic(109)) # "Crisis averted. Resume sinning."
 print(apocalyptic(157)) # "Repent! 9 days until the Apocalypse!"
 print(apocalyptic(175)) # "Crisis averted. Resume sinning."  
+print(apocalyptic(220)) # "Repent! 6 days until the Apocalypse!"
