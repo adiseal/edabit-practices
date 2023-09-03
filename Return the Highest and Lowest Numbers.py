@@ -3,3 +3,4 @@ def high_low(txt):
     return "{} {}".format(max(numbers), min(numbers))
     
 print(high_low("1 2 3 4 5")) # "5 1"
+print(high_low("1 2 -3 4 5")) # "5 -3"
