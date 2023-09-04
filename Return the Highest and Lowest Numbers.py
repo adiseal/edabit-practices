@@ -4,3 +4,4 @@ def high_low(txt):
     
 print(high_low("1 2 3 4 5")) # "5 1"
 print(high_low("1 2 -3 4 5")) # "5 -3"
+print(high_low("1 9 3 4 -5")) # "9 -5"
