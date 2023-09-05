@@ -3,3 +3,5 @@ def maskify(string: str) -> str:
         return string
     else:
         return "#" * (len(string) - 4) + string[-4:]
+
+print(maskify("4556364607935616")) # "############5616"
