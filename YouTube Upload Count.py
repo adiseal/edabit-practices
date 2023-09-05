@@ -6,3 +6,4 @@ def upload_count(dates, month):
     return count
 
 print(upload_count(["Sept 22", "Sept 21", "Oct 15"], "Sept")) # 2
+print(upload_count(["Sept 22", "Sept 21", "Oct 15"], "Oct")) # 1
