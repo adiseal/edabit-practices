@@ -7,3 +7,4 @@ def maskify(string: str) -> str:
 print(maskify("4556364607935616")) # "############5616"
 print(maskify("64607935616")) # "#######5616"
 print(maskify("1")) # "1"
+print(maskify("")) # ""
