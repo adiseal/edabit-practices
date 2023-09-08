@@ -5,3 +5,4 @@ def first_non_repeated_character(s):
     return False
 
 print(first_non_repeated_character("g")) # "g"
+print(first_non_repeated_character("it was then the frothy word met the round night")) # "a"
