@@ -4,3 +4,4 @@ def shhh(txt):
 
 print(shhh("HI THERE!")) # '"Hi there!", whispered Edabit.'
 print(shhh("tHaT'S Pretty awesOme")) # '"That's pretty awesome", whispered Edabit.'
+print(shhh("")) # '"", whispered Edabit.'
