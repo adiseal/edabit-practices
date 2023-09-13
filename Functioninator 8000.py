@@ -7,3 +7,4 @@ def inator_inator(word):
 
 print(inator_inator("Shrink")) # "Shrinkinator 6000"
 print(inator_inator("Doom")) # "Doominator 4000"
+print(inator_inator("EvilClone")) # "EvilClone-inator 9000"
