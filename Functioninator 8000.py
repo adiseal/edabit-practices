@@ -6,3 +6,4 @@ def inator_inator(word):
         return word + 'inator ' + str(len(word)*1000)
 
 print(inator_inator("Shrink")) # "Shrinkinator 6000"
+print(inator_inator("Doom")) # "Doominator 4000"
