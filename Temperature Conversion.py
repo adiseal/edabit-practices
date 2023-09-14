@@ -5,3 +5,5 @@ def temp_conversion(celsius):
         return "Invalid"
     else:
         return [fahrenheit, kelvin]
+
+print(temp_conversion(0)) # [32, 273.15]
