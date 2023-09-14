@@ -7,3 +7,4 @@ def temp_conversion(celsius):
         return [fahrenheit, kelvin]
 
 print(temp_conversion(0)) # [32, 273.15]
+print(temp_conversion(100)) # [212, 373.15]
