@@ -1,7 +1,5 @@
 def worm_length(worm):
-	for i in worm:
-		if i!="-":
-			return "Invalid"
-		else:
-			continue
-	return str(len(worm)*10) + " mm."
+    if not worm or any(c != '-' for c in worm):
+        return "invalid"
+    else:
+        return "%d mm." % (len(worm) * 10)
