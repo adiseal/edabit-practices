@@ -6,3 +6,4 @@ def reverse(s):
     return ' '.join(words)
 
 print(reverse("Reverse")) # "esreveR"
+print(reverse("This is a typical sentence.")) # "This is a lacipyt .ecnetnes"
