@@ -7,3 +7,4 @@ def reverse(s):
 
 print(reverse("Reverse")) # "esreveR"
 print(reverse("This is a typical sentence.")) # "This is a lacipyt .ecnetnes"
+print(reverse("The dog is big.")) # "The dog is big."
