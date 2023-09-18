@@ -3,3 +3,5 @@ def double_letters(word):
         if word[i] == word[i+1]:
             return True
     return False
+
+print(double_letters("loop")) # True
