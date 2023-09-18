@@ -5,3 +5,4 @@ def double_letters(word):
     return False
 
 print(double_letters("loop")) # True
+print(double_letters("yummy")) # True
