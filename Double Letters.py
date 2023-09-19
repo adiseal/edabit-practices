@@ -6,3 +6,4 @@ def double_letters(word):
 
 print(double_letters("loop")) # True
 print(double_letters("yummy")) # True
+print(double_letters("orange")) # False
