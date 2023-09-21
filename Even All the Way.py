@@ -3,3 +3,4 @@ def get_only_evens(numbers):
 
 print(get_only_evens([1, 3, 2, 6, 4, 8])) # [2, 4]
 print(get_only_evens([0, 1, 2, 3, 4])) # [0, 2, 4]
+print(get_only_evens([1, 2, 3, 4, 5])) # []
