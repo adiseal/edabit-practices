@@ -6,3 +6,4 @@ def worm_length(worm):
 
 print(worm_length("----------")) # "100 mm."
 print(worm_length("")) # "invalid"
+print(worm_length("---_-___---_")) # "invalid"
