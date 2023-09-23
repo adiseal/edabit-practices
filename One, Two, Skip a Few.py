@@ -3,3 +3,6 @@ def how_many_missing(lst):
         return 0
     else:
         return max(lst) - min(lst) + 1 - len(lst)
+
+
+print(how_many_missing([1, 3])) # 1
