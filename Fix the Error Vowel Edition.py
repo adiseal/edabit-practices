@@ -5,3 +5,4 @@ def remove_vowels(string):
     return string
 
 print(remove_vowels("ben")) # "bn"
+print(remove_vowels("hello")) # "hllo"
