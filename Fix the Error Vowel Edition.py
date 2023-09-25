@@ -3,3 +3,5 @@ def remove_vowels(string):
     for vowel in vowels:
         string = string.replace(vowel, "")
     return string
+
+print(remove_vowels("ben")) # "bn"
