@@ -6,3 +6,4 @@ def remove_vowels(string):
 
 print(remove_vowels("ben")) # "bn"
 print(remove_vowels("hello")) # "hllo"
+print(remove_vowels("apple")) # "appl"
