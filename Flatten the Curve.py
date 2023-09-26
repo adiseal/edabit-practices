@@ -7,3 +7,5 @@ def flatten_the_curve(lst: list) -> list:
     # Replace every number with the mean
     result = [mean for _ in lst]
     return result
+
+print(flatten_the_curve([1, 2, 3, 4, 5])) # [3, 3, 3, 3, 3]
