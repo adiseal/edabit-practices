@@ -10,3 +10,4 @@ def flatten_the_curve(lst: list) -> list:
 
 print(flatten_the_curve([1, 2, 3, 4, 5])) # [3, 3, 3, 3, 3]
 print(flatten_the_curve([0, 0, 0, 2, 7, 3])) # [2, 2, 2, 2, 2, 2]
+print(flatten_the_curve([4])) # [4]
