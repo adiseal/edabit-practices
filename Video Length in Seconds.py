@@ -5,3 +5,4 @@ def minutes_to_seconds(video_length: str) -> int:
     return minutes * 60 + seconds
 
 print(minutes_to_seconds("01:00")) # 60
+print(minutes_to_seconds("13:56")) # 836
