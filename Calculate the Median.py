@@ -8,3 +8,5 @@ def median(nums):
     else:
         median = nums[n//2]
     return median
+
+print(median([2, 5, 6, 2, 6, 3, 4])) # 4
