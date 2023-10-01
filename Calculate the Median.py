@@ -10,3 +10,4 @@ def median(nums):
     return median
 
 print(median([2, 5, 6, 2, 6, 3, 4])) # 4
+print(median([21.4323, 432.54, 432.3, 542.4567])) # 432.4
