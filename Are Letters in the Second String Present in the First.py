@@ -7,3 +7,4 @@ def letter_check(lst):
     return True
 
 print(letter_check(["trances", "nectar"])) # True
+print(letter_check(["compadres", "DRAPES"])) # True
