@@ -5,3 +5,5 @@ def letter_check(lst):
         if char not in str1:
             return False
     return True
+
+print(letter_check(["trances", "nectar"])) # True
