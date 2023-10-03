@@ -8,3 +8,4 @@ def letter_check(lst):
 
 print(letter_check(["trances", "nectar"])) # True
 print(letter_check(["compadres", "DRAPES"])) # True
+print(letter_check(["parses", "parsecs"])) # False
