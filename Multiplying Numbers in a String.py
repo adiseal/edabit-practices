@@ -4,3 +4,6 @@ def multiply_nums(str1):
   for number in numbers:
     product *= int(number)
   return product
+
+print(multiply_nums("2, 3")) # 6
+
