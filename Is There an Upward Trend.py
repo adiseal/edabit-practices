@@ -8,3 +8,4 @@ def upward_trend(lst):
 
 
 print(upward_trend([1, 2, 3, 4])) # True
+print(upward_trend([1, 2, 6, 5, 7, 8])) # False 
