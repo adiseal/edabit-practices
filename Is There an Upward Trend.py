@@ -5,3 +5,6 @@ def upward_trend(lst):
     
     # Check if the list is sorted in ascending order
     return all(lst[i] <= lst[i+1] for i in range(len(lst)-1))
+
+
+print(upward_trend([1, 2, 3, 4])) # True
