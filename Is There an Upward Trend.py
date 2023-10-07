@@ -10,3 +10,4 @@ def upward_trend(lst):
 print(upward_trend([1, 2, 3, 4])) # True
 print(upward_trend([1, 2, 6, 5, 7, 8])) # False 
 print(upward_trend([1, 2, 3, "4"])) # "Strings not permitted!"
+print(upward_trend([1, 2, 3, 6, 7])) # True
