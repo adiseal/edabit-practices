@@ -7,3 +7,4 @@ def char_index(word, char):
         return [first_index, last_index]
 
 print(char_index("hello", "l")) # [2, 3]
+print(char_index("circumlocution", "c")) # [0, 8]
