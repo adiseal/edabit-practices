@@ -4,3 +4,4 @@ def century_from_year(year):
 print(century_from_year(2005)) # 21
 print(century_from_year(1950)) # 20
 print(century_from_year(1900)) # 19
+print(century_from_year(1705)) # 18
