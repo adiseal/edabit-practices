@@ -8,3 +8,4 @@ def char_index(word, char):
 
 print(char_index("hello", "l")) # [2, 3]
 print(char_index("circumlocution", "c")) # [0, 8]
+print(char_index("happy", "h")) # [0, 0]
