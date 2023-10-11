@@ -3,3 +3,9 @@ def in_box(lst):
         if '*' in row[1:-1]:
             return True
     return False
+
+print(in_box([
+  "###",
+  "#*#",
+  "###"
+])) # True
