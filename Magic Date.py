@@ -15,3 +15,6 @@ def magic(date_str):
 
     # Check if mm * dd matches the last 1, 2, or 3 digits of yyyy
     return mm_dd in {last_1_digit, last_2_digits, last_3_digits}
+    
+    
+print(magic("1 1 2011")) # True
