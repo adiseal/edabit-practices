@@ -19,3 +19,4 @@ def magic(date_str):
     
 print(magic("1 1 2011")) # True
 print(magic("4 1 2001")) # False
+print(magic("5 2 2010")) # True
