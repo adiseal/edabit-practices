@@ -1,7 +1,6 @@
 def letter_at_position(n):
-    alpha = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-    for i in alpha:
-        if n == int(n):
-            return alpha[int(n)-1].lower()
-        else:
-            return "invalid"
+    if isinstance(n, int) or (isinstance(n, float) and n.is_integer()):
+        n = int(n)
+        if 1 <= n <= 26:
+            return chr(96 + n)
+    return "invalid"
