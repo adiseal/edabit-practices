@@ -11,3 +11,5 @@ def is_prime(n):
             return False
         i += 6
     return True
+
+print(is_prime(31)) # True
