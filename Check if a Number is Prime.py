@@ -13,3 +13,4 @@ def is_prime(n):
     return True
 
 print(is_prime(31)) # True
+print(is_prime(18)) # False
