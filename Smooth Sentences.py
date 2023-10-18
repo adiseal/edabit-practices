@@ -1,11 +1,6 @@
 def is_smooth(sentence):
-    a = sentence.split(" ")
-    for i in a:
-        #print(i[len(i) - 1],a[a.index(i) + 1][0])
-        if i == a[-2]:
-            break
-        elif i[len(i) - 1] == a[a.index(i) + 1][0]:
-            continue
-        else:
+    words = sentence.split()
+    for i in range(len(words) - 1):
+        if words[i].lower()[-1] != words[i+1].lower()[0]:
             return False
     return True
