@@ -10,3 +10,11 @@ print(get_xp({
   "Hard" : 4,
   "Very Hard" : 1
 })) # "2055XP"
+
+print(get_xp({
+  "Very Easy" : 254,
+  "Easy" : 32,
+  "Medium" : 65,
+  "Hard" : 51,
+  "Very Hard" : 34
+})) # "7650XP"
