@@ -8,3 +8,5 @@ def retrieve(sentence):
     words = [word.lower() for word in words]
     
     return words
+    
+print(retrieve("A simple life is a happy life for me.")) # ["a", "is", "a"]
