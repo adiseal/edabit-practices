@@ -7,3 +7,4 @@ def remove_special_characters(s):
     return re.sub(pattern, '', s)
 
 print(remove_special_characters("The quick brown fox!")) # "The quick brown fox"
+print(remove_special_characters("%fd76$fd(-)6GvKlO.")) # "fd76fd-6GvKlO"
