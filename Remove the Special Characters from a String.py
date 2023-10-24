@@ -5,3 +5,5 @@ def remove_special_characters(s):
     pattern = r'[^a-zA-Z0-9-_ ]'
     # Use the sub() method to replace them with an empty string
     return re.sub(pattern, '', s)
+
+print(remove_special_characters("The quick brown fox!")) # "The quick brown fox"
