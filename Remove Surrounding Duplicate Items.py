@@ -1,10 +1,8 @@
 def unique_in_order(sequence):
-	lis = sequence[0]
-	for i in range(1,len(sequence)):
-		if sequence[i-1]==sequence[i]:
-			lis+=""
-		else:
-			lis+=sequence[i]
-	return list(lis)
-    
-print(unique_in_order("AAAABBBCCDAABBB")) # ["A", "B", "C", "D", "A", "B"]
+    if not sequence:
+        return []
+    result = [sequence[0]]
+    for item in sequence[1:]:
+        if item != result[-1]:
+            result.append(item)
+    return result
