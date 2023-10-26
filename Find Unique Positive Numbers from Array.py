@@ -6,3 +6,6 @@ def unique_lst(lst):
             seen.add(num)
             result.append(num)
     return result
+
+
+print(unique_lst([-5, 1, -7, -5, -2, 3, 3, -5, -1, -1])) # [1, 3]
