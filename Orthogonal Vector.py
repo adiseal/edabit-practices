@@ -6,3 +6,4 @@ def is_orthogonal(first, second):
 
 print(is_orthogonal([1, 2], [2, -1])) # True
 print(is_orthogonal([3, -1], [7, 5])) # False
+print(is_orthogonal([1, 2, 0], [2, -1, 10])) # True
