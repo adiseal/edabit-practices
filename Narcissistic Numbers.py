@@ -8,3 +8,5 @@ def is_narcissistic(n):
     
     # Check if the total is equal to the original number
     return total == n
+
+print(is_narcissistic(8208)) # True
