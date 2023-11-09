@@ -11,3 +11,4 @@ def is_narcissistic(n):
 
 print(is_narcissistic(8208)) # True
 print(is_narcissistic(22)) # False
+print(is_narcissistic(9)) # True
