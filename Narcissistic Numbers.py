@@ -10,3 +10,4 @@ def is_narcissistic(n):
     return total == n
 
 print(is_narcissistic(8208)) # True
+print(is_narcissistic(22)) # False
