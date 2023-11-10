@@ -14,3 +14,5 @@ def format_math(expression):
     
     # Return the formatted equation
     return "{} = {}".format(expression, result)
+
+print(format_math("3 + 4")) # "3 + 4 = 7"
