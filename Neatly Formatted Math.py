@@ -17,3 +17,4 @@ def format_math(expression):
 
 print(format_math("3 + 4")) # "3 + 4 = 7"
 print(format_math("3 - 2")) # "3 - 2 = 1"
+print(format_math("4 x 5")) # "4 x 5 = 20"
