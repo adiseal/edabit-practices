@@ -9,3 +9,4 @@ def is_strange_pair(str1, str2):
 print(is_strange_pair("ratio", "orator")) # True
 print(is_strange_pair("sparkling", "groups")) # True
 print(is_strange_pair("bush", "hubris")) # False
+print(is_strange_pair("", "")) # True
