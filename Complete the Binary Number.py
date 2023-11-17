@@ -6,3 +6,5 @@ def complete_binary(bin_str):
 
     # Add the necessary zeros to the start of the string
     return '0' * zeros_to_add + bin_str
+
+print(complete_binary("1100")) # "00001100"
