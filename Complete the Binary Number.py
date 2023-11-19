@@ -8,3 +8,4 @@ def complete_binary(bin_str):
     return '0' * zeros_to_add + bin_str
 
 print(complete_binary("1100")) # "00001100"
+print(complete_binary("1101100")) # "01101100"
