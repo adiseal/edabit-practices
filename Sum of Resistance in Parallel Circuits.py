@@ -5,3 +5,4 @@ def parallel_resistance(resistors):
     return round(1/total, 1)
     
 print(parallel_resistance([6, 3])) # 2
+print(parallel_resistance([10, 20, 10])) # 4
