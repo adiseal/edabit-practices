@@ -8,3 +8,5 @@ def validate_binary(binary):
     else:
         # If odd, the parity bit should be 1
         return binary[-1] == '1'
+
+print(validate_binary('00101101')) # True
