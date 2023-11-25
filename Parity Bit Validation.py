@@ -10,4 +10,5 @@ def validate_binary(binary):
         return binary[-1] == '1'
 
 print(validate_binary('00101101')) # True
-print()validate_binary('11000000') # True
+print(validate_binary('11000000')) # True
+print(validate_binary('11000001')) # False
