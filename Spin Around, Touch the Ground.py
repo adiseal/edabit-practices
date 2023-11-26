@@ -12,3 +12,4 @@ def spin_around(directions):
     
     return full_rotations
 
+print(spin_around(['left', 'right', 'left', 'right'])) # 0
