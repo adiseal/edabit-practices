@@ -17,3 +17,4 @@ print(spin_around(['right', 'right', 'right', 'right', 'right', 'right', 'right'
 print(spin_around(['left', 'left', 'left', 'left'])) # 1
 print(spin_around([])) # 0
 print(spin_around(['left'])) # 0
+print(spin_around(['right'])) # 0
