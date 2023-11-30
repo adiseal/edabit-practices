@@ -20,3 +20,4 @@ print(spin_around(['left'])) # 0
 print(spin_around(['right'])) # 0
 print(spin_around(['right', 'right', 'right', 'left', 'right', 'right'])) # 1
 print(spin_around(['left', 'left', 'right', 'left', 'left', 'left', 'left', 'left', 'left', 'right', 'left', 'left', 'right', 'right', 'right', 'right', 'left', 'left', 'right', 'right'])) # 1
+print(spin_around(['right', 'left', 'left', 'right', 'left', 'left', 'right', 'left', 'right', 'right', 'left', 'left', 'right', 'right', 'right', 'left', 'left', 'right'])) # 0
