@@ -6,4 +6,5 @@ def add_up_to(n):
 
 print(add_up_to(3)) # 6
 print(add_up_to(10)) # 55
+print(add_up_to(0)) # 0
 print(add_up_to(7)) # 28
