@@ -10,3 +10,4 @@ print(add_up_to(0)) # 0
 print(add_up_to(7)) # 28
 print(add_up_to(2)) # 3
 print(add_up_to(20)) # 210
+print(add_up_to(1)) # 1
