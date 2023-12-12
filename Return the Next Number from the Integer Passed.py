@@ -8,3 +8,4 @@ def addition(num):
  print(addition(2)) # 3
  print(addition(-9)) # -8
  print(addition(999)) # 1000
+ print(addition(73)) # 74
