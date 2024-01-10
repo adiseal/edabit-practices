@@ -11,3 +11,4 @@ print(add_up(392)) # 77028
 print(add_up(53)) # 1431
 print(add_up(897)) # 402753
 print(add_up(23)) # 276
+print(add_up(1000)) # 500500
