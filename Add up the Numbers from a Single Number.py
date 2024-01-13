@@ -16,3 +16,4 @@ print(add_up(738)) # 272691
 print(add_up(100)) # 5050
 print(add_up(925)) # 428275
 print(add_up(1)) # 1
+print(add_up(999)) # 499500
