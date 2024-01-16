@@ -23,3 +23,4 @@ print(operation(11, 11)) # None
 print(operation(12, 12)) # "added"
 print(operation(100, 76)) # "subtracted"
 print(operation(6, 4)) # "multiplied"
+print(operation(528, 22)) # "divided"
