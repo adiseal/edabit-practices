@@ -1,12 +1,8 @@
-def duplicate_count(txt):
-    a = []
-    count = 0
-    for i in txt:
-        a = a + [txt.count(i)]
-        txt = txt.replace(i,"")
-    for i in a:
-        if i >1:
-            count = count +1
-    return count
-    
-print(duplicate_count("Indivisibilities")) # 2
+def duplicates(s):
+    counts = {}
+    for char in s:
+        if char in counts:
+            counts[char] += 1
+        else:
+            counts[char] = 1
+    return sum(count - 1 for count in counts.values() if count > 1)
