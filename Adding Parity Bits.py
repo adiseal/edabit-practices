@@ -5,3 +5,4 @@ def add_parity_bit(b):
     return b + "1"
 
 print(add_parity_bit("0010110")) # "00101101"
+print(add_parity_bit("1100000")) # "11000000"
