@@ -8,3 +8,4 @@ def additive_inverse(lst):
     return output
 
 print(additive_inverse([5, -7, 8, 3])) # [-5, 7, -8, -3]
+print(additive_inverse([1, 1, 1, 1, 1])) # [-1, -1, -1, -1, -1]
