@@ -4,6 +4,3 @@ def can_alternate(s):
     return abs(zeros - ones) <= 1
 
 print(can_alternate("0001111")) # True
-print(can_alternate("01001")) # True
-print(can_alternate("010001")) # False
-print(can_alternate("1111")) # False
