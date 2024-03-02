@@ -5,3 +5,4 @@ def can_alternate(s):
 
 print(can_alternate("0001111")) # True
 print(can_alternate("01001")) # True
+print(can_alternate("010001")) # False
