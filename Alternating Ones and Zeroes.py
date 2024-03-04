@@ -9,3 +9,4 @@ print(can_alternate("010001")) # False
 print(can_alternate("0100110111")) # False
 print(can_alternate("10101010")) # True
 print(can_alternate("010101000")) # False
+print(can_alternate("0111")) # False
