@@ -1,10 +1,7 @@
-def letters_only(txt):
-	a = ""
-	for i in txt:
-		if i.isupper() or i.islower():
-			a = a + i
-		else:
-			continue
-	return a
-    
-print(letters_only("R!=:~0o0./c&}9k`60=y")) # "Rocky"
+def letters_only(s):
+    if s == "":
+        return False
+    for char in s:
+        if not char.islower() and not char.isspace():
+            return False
+    return True
