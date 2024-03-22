@@ -10,3 +10,4 @@ print(is_anagram("Dave Barry", "Ray Adverb")) # True
 print(is_anagram("Nope", "Note")) # False
 print(is_anagram('cristian', 'Cristina')) # True
 print(is_anagram('Dave Barry', 'Ray Adverb')) # True
+print(is_anagram('Nope', 'Note')) # False
