@@ -17,3 +17,4 @@ print(is_prime(2)) # True
 print(is_prime(3)) # True
 print(is_prime(4)) # False
 print(is_prime(5)) # True 
+print(is_prime(6)) # False
