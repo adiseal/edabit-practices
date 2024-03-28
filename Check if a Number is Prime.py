@@ -21,4 +21,5 @@ print(is_prime(6)) # False
 print(is_prime(7)) # True
 print(is_prime(8)) # False
 print(is_prime(9)) # False
+print(is_prime(10)) # False
 
