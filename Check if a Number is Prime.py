@@ -32,3 +32,4 @@ print(is_prime(17)) # True
 print(is_prime(18)) # False
 print(is_prime(19)) # True
 print(is_prime(20)) # False
+print(is_prime(21)) # False
