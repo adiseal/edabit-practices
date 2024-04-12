@@ -53,3 +53,4 @@ print(is_prime(36)) # False
 print(is_prime(37)) # True
 print(is_prime(38)) # False
 print(is_prime(39)) # False
+print(is_prime(40)) # False
