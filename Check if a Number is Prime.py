@@ -12,7 +12,7 @@ def is_prime(n):
         i += 6
     return True
 
-# Prime numbers => 53, 59, 61, 67, 71, 73, 79, 83, 89, 97
+# Prime numbers => 59, 61, 67, 71, 73, 79, 83, 89, 97
 
 print(is_prime(1)) # False
 print(is_prime(2)) # True
@@ -66,3 +66,4 @@ print(is_prime(49)) # False
 print(is_prime(50)) # False
 print(is_prime(51)) # False
 print(is_prime(52)) # False
+print(is_prime(53)) # True
