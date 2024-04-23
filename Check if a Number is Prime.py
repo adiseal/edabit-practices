@@ -74,3 +74,4 @@ print(is_prime(57)) # False
 print(is_prime(58)) # False
 print(is_prime(59)) # True
 print(is_prime(60)) # False
+print(is_prime(61)) # True
