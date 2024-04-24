@@ -14,10 +14,6 @@ def is_prime(n):
 
 # Prime numbers => 67, 71, 73, 79, 83, 89, 97
 
-"""
-This is intended just for practice
-"""
-
 print(is_prime(1)) # False
 print(is_prime(2)) # True
 print(is_prime(3)) # True
