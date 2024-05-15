@@ -16,3 +16,4 @@ def is_prime(n):
 
 
 print(is_prime(100)) # False
+print(is_prime(101)) # True
