@@ -28,3 +28,4 @@ print(is_prime(109)) # True
 print(is_prime(110)) # False
 print(is_prime(111)) # False
 print(is_prime(112)) # False
+print(is_prime(113)) # True
