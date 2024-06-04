@@ -12,7 +12,7 @@ def is_prime(n):
         i += 6
     return True
 
-# Prime numbers 100 - 200 => 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199
+# Prime numbers 100 - 200 => 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199
 
 
 print(is_prime(100)) # False
@@ -46,3 +46,4 @@ print(is_prime(127)) # True
 print(is_prime(128)) # False
 print(is_prime(129)) # False
 print(is_prime(130)) # False
+print(is_prime(131)) # True
