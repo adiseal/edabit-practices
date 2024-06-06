@@ -50,3 +50,4 @@ print(is_prime(131)) # True
 print(is_prime(132)) # False
 print(is_prime(133)) # False
 print(is_prime(134)) # False
+print(is_prime(135)) # False
