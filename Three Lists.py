@@ -1,17 +1,15 @@
+from collections import Counter
+
 def sum_common(lst1, lst2, lst3):
-	a = []
-	b = []
-	z = 0
-	for i in lst1:
-		for j in lst2:
-			if i == j:
-				a = a+[i]
-	for k in a:
-		for l in lst3:
-			if k == l:
-				b = b+[k]
-	for q in b:
-		z = z+q
-	return z
+    counter1 = Counter(lst1)
+    counter2 = Counter(lst2)
+    counter3 = Counter(lst3)
     
-print(sum_common([1, 2, 3], [5, 3, 2], [7, 3, 2])) # 5
+    common_elements = counter1.keys() & counter2.keys() & counter3.keys()
+    
+    common_sum = 0
+    for element in common_elements:
+        min_count = min(counter1[element], counter2[element], counter3[element])
+        common_sum += element * min_count
+    
+    return common_sum
