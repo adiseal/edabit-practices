@@ -109,3 +109,4 @@ print(is_prime(191)) # True
 print(is_prime(192)) # False
 print(is_prime(193)) # True
 print(is_prime(194)) # False
+print(is_prime(195)) # False
