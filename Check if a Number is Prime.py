@@ -16,3 +16,4 @@ def is_prime(n):
 
 print(is_prime(200)) # False
 print(is_prime(201)) # False
+print(is_prime(202)) # False
