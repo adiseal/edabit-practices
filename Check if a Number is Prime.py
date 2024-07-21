@@ -24,3 +24,4 @@ print(is_prime(206)) # False
 print(is_prime(207)) # False
 print(is_prime(208)) # False
 print(is_prime(209)) # False
+print(is_prime(210)) # False
