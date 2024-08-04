@@ -12,7 +12,7 @@ def is_prime(n):
         i += 6
     return True
 
-# Prime numbers 200 - 300 => 233, 239,241, 251, 257, 263, 269, 271, 277, 281, 283, 293
+# Prime numbers 200 - 300 => 239,241, 251, 257, 263, 269, 271, 277, 281, 283, 293
 
 print(is_prime(200)) # False
 print(is_prime(201)) # False
