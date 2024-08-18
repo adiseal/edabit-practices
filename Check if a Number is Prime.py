@@ -68,3 +68,4 @@ print(is_prime(250)) # False
 print(is_prime(251)) # True
 print(is_prime(252)) # False
 print(is_prime(253)) # False
+print(is_prime(254)) # False
