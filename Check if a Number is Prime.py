@@ -70,7 +70,7 @@ print(is_prime(252)) # False
 print(is_prime(253)) # False
 print(is_prime(254)) # False
 print(is_prime(255)) # False
-print(is_prime(256)) # False
+print(is_prime(256)) # FalseF
 print(is_prime(257)) # FalseFalse
 print(is_prime(258)) # FalseFalse
 print(is_prime(259)) # FalseFalse
